@@ -98,21 +98,6 @@ console.log("Total Months: " + totalMonth);
 
 // The net total amount of Profit/Losses over the entire period.
 
-// const sumArray = (array) => {
-//   const newArray = [];
-//   array.forEach(sub => {
-//     sub.forEach((num, index) => {
-//       if (newArray[index]) {
-//         newArray[index] += num;
-//       }else {
-//         newArray[index] = num;
-//       }
-//     });
-//   });
-//   return newArray
-// }
-
-// console.log("Total profit / loss: " + sumArray(finances));
 
 var total = 0
 
