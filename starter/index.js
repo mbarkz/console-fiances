@@ -104,7 +104,6 @@ var total = 0
 for (let i = 0; i < finances.length; i++) {
   const arr = finances[i];
   total = total + arr[1];
-  
 }
 
 console.log("Total Profit/Loss: " +total);
@@ -115,6 +114,11 @@ console.log("Total Profit/Loss: " +total);
 
 // (Total/(Number of months - 1))
 
+let sum = finances[1][1] - finances[0][1]
+console.log("Second - first month: " + sum);
+
+//above is the sum I want to repeat through the array.
+
 // The greatest increase in profits (date and difference in the amounts) over the entire period.
 
-// The greatest decrease in losses (date and difference in the amounts) over the entire period.
+// The greatest decrease in losses (date and difference in the amounts) over the entire period. -
