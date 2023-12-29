@@ -114,10 +114,24 @@ console.log("Total Profit/Loss: " +total);
 
 // (Total/(Number of months - 1))
 
-let sum = finances[1][1] - finances[0][1]
-console.log("Second - first month: " + sum);
+// let sum = finances[1][1] - finances[0][1]
+// console.log("Second - first month: " + sum);
 
 //above is the sum I want to repeat through the array.
+
+var sumOfProfLoss = 0
+
+for (let k = 0; k < finances.length; k++) {
+  const arr2 = finances[k];
+  sumOfProfLoss = arr2[1] + arr2[1]
+  
+}
+
+// console.log(sumOfProfLoss);
+
+var AvgChange = sumOfProfLoss / 85
+
+console.log("Average of Changes: " + AvgChange);
 
 // The greatest increase in profits (date and difference in the amounts) over the entire period.
 
