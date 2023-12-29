@@ -106,7 +106,11 @@ for (let i = 0; i < finances.length; i++) {
   total = total + arr[1];
 }
 
-console.log("Total Profit/Loss: " +total);
+console.log("Total Profit/Loss: " + total);
+
+var avgChange2 = total / 85
+
+console.log("Average Change: " + avgChange2);
 
 // The average of the changes in Profit/Losses over the entire period.
 
@@ -133,6 +137,15 @@ var AvgChange = sumOfProfLoss / 85
 
 console.log("Average of Changes: " + AvgChange);
 
+
+//option two using map
+
+var fiancesOnly = finances.map(function(val) {
+  return val.slice(1);
+})
+
+console.log(fiancesOnly);
+
 // The greatest increase in profits (date and difference in the amounts) over the entire period.
 
-// The greatest decrease in losses (date and difference in the amounts) over the entire period. -
+// The greatest decrease in losses (date and difference in the amounts) over the entire period.
