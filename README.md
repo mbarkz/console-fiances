@@ -17,23 +17,25 @@ I was similalry unable to track the total and therefore average of these figures
 
 It wasn't able to figure these aspects by googling or by other means, I had to resort to asking a friend to help me understand how to tackle these tasks.
 
-In the end, with the help of a friend, I managed to complete the challenge.
+In the end, with the help of a friend, I managed to make better progress in the challenge.
 
 ## Usage
 
 To access the fiancial analysis open the git page, right click > inspect > navigate to "console"
 
-    ```md
-    ![Screen grab of console](assets/images/screenshot.png)
-    ```
+![Alt](/assets/screenshot.png)
 
 ## Credits
 
 Me
+
 Daniel S - Teaching Assistant who help me a great deal.
+
 Tushar - Friend who also helped
 
+
 THANK YOU!!
+
 
 ## License
 
