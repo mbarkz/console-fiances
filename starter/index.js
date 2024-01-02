@@ -126,19 +126,19 @@ var avgChange2 = total / 85
 var sumOfProfLoss = 0
 
 for (let k = 0; k < finances.length; k++) {
-  if (k > finances.length) {
-    
+  if (k = finances.length - 1) {
+    break; 
   }
+  nextFinances = finances.pop();
   const current = finances[k][1];
   const next = finances[k+1][1];
   console.log(next);
-  // console.log(arr2);
   const difference = current - next
   sumOfProfLoss += difference
-  console.log("diff " + difference);
+  console.log("Diff between current and next month: " + difference);
 }
 
-console.log("Prof loss" + sumOfProfLoss);
+console.log("Sum of Difference: " + sumOfProfLoss);
 
 // arr[10] - arr[11]
 
