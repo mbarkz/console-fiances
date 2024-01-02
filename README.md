@@ -29,7 +29,11 @@ To access the fiancial analysis open the git page, right click > inspect > navig
 
 ## Credits
 
-Me and my friend Tushar.
+Me
+Daniel S - Teaching Assistant who help me a great deal.
+Tushar - Friend who also helped
+
+THANK YOU!!
 
 ## License
 
