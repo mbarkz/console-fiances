@@ -21,9 +21,7 @@ In the end, with the help of a friend, I managed to complete the challenge.
 
 ## Usage
 
-To access the fiancial analysis
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+To access the fiancial analysis open the git page, right click > inspect > navigate to "console"
 
     ```md
     ![Screen grab of console](assets/images/screenshot.png)
